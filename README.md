@@ -38,9 +38,22 @@ Run the corresponding script for each project:
     - Sonar Signal Processing: sonar_signal_processing.py
     - Audio Analyzer: audio_analyzer.py
 
-
 Applications
+Underwater exploration: Sonar systems can be used for underwater mapping, object detection, and navigation.
+Marine biology: Sonar can be used to study marine life, track fish populations, and monitor ocean health.
+Offshore oil and gas: Sonar can be used for pipeline inspection, platform inspection, and seabed mapping.
+Search and rescue: Sonar can be used to locate objects or people underwater.
 
 
-Sonar Systems: The sonar signal processing project can be used in sonar systems for detecting and analyzing sonar echoes.
-Audio Processing: The audio analyzer project can be used in audio processing applications such as music classification, speech recognition, and audio classification.
+
+Audio Analyzer
+
+
+Music classification: Audio analysis can be used to classify music genres, moods, or styles.
+Speech recognition: Audio analysis can be used in speech recognition systems for voice assistants or transcription services.
+Audio event detection: Audio analysis can be used to detect specific events or sounds in audio recordings, such as gunshots or screams.
+Audio quality assessment: Audio analysis can be used to evaluate the quality of audio recordings, such as assessing noise levels or distortion.
+
+
+
+
