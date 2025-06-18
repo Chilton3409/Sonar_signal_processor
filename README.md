@@ -1,59 +1,58 @@
 # Sonar_signal_processor
-This repository contains two signal processing projects:
+Sonar Signal Processing
 
 
-Sonar Signal Processing: A sonar signal processing system that generates sonar pulses, processes echoes, and calculates movement speed and velocity.
-Audio Analyzer: An audio analyzer that calculates various spectral features of an audio signal.
-
+This project implements a sonar signal processing system using Python and various signal processing techniques. It generates sonar pulses, processes echoes, and calculates Doppler shift, movement speed, and other relevant features.
 
 
 Features
 
 
-Sonar Signal Processing:
+Sonar pulse generation
+Echo processing and denoising using wavelet analysis
+Doppler shift calculation
+Movement speed and velocity calculation
+Spectral analysis and feature extraction
 
-    - Generates sonar pulses with different frequencies
-    - Processes echoes, including calculating peaks, Doppler shift, movement speed, and movement velocity
-Audio Analyzer:
-
-    - Calculates spectral features such as MFCCs, spectral centroid, spectral bandwidth, Fourier transform, frequencies, and power spectral density
 
 
 Requirements
 
 
-Python 3.x: These projects are built using Python 3.x.
-Required Libraries:
+Python 3.x
+NumPy
+SciPy
+PyAudio
+Librosa
+PyWavelets
+Matplotlib
 
-    - Sonar Signal Processing: NumPy, SciPy, and PyAudio
-    - Audio Analyzer: Librosa, NumPy, and SciPy
 
 
 Usage
 
 
-Clone the repository and install the required dependencies.
-Run the corresponding script for each project:
+Clone the repository
+Install required libraries using pip install -r requirements.txt
+Run the project using python main.py
 
-    - Sonar Signal Processing: sonar_signal_processing.py
-    - Audio Analyzer: audio_analyzer.py
+
 
 Applications
-Underwater exploration: Sonar systems can be used for underwater mapping, object detection, and navigation.
-Marine biology: Sonar can be used to study marine life, track fish populations, and monitor ocean health.
-Offshore oil and gas: Sonar can be used for pipeline inspection, platform inspection, and seabed mapping.
-Search and rescue: Sonar can be used to locate objects or people underwater.
+
+
+This project can be used in various applications, including:
+
+
+Underwater exploration
+Object detection
+Navigation
 
 
 
-Audio Analyzer
+Notes
 
 
-Music classification: Audio analysis can be used to classify music genres, moods, or styles.
-Speech recognition: Audio analysis can be used in speech recognition systems for voice assistants or transcription services.
-Audio event detection: Audio analysis can be used to detect specific events or sounds in audio recordings, such as gunshots or screams.
-Audio quality assessment: Audio analysis can be used to evaluate the quality of audio recordings, such as assessing noise levels or distortion.
-
-
-
+This project is for educational and research purposes only.
+Further development and optimization may be necessary for real-world applications.
 
